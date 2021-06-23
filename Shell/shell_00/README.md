@@ -19,7 +19,6 @@ conteúdo exibir 'Z' seguido de uma quebra de linha.
 A Moulinette verifica na pasta um arquivo 'testShell00.tar', e se ao extraí-lo tem o arquivo 
 'testShell00' com o tamanho de 40bytes e permissões -r--r-xr-x.
 
-> 1. touch testShell00                       (cria o arquivo)
 > 1. truncate -s 40 testShell00              (insere o tamanho de 40bytes no arquivo)
 > 1. chmod 455 testShell00                   (aplica as permissões específicas)
 > 1. tar -t testShell00.tar testShell00      (comprime o arquivo em .tar)
@@ -43,9 +42,8 @@ arquivos e pastas da pasta atual, mas não os arquivos ocultos, nem "." ou "..."
 Separando-os por vírgula, ordenando por data de acesso e de maneira que as pastas sejam seguidas
 por uma barra.
 
-> 1. touch midLS                     (cria o arquivo)
 > 1. echo 'ls -mup' > midLS          (-m separa por vírgula -p anexa / aos diretorios 
-                                    -u organiza por data de acesso)
+>                                        -u organiza por data de acesso)
 
 #### ex04
 A Moulinette verifica se dentro da pasta existe um shell script git_commit.sh que retorne o id dos 5 
