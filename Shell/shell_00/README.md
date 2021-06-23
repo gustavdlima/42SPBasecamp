@@ -8,16 +8,16 @@ Moulinette -> Nome do algoritmo usado pela 42 para avaliar as resoluções de fo
 
 ### Resoluções:
 > ex00
-A Moulinette verifica na pasta um arquivo 'z' para usar o comando 'cat z' e como
-conteúdo exibir 'Z' seguido de uma quebra de linha.
-
-1. touch z                         (cria o arquivo)
-1. echo -e 'Z\n' > z               (coloca o conteúdo Z e a quebra de linha '\n' no arquivo 'z' -e permite a
-                                    interpretação de escapes da barra invertida)
+>A Moulinette verifica na pasta um arquivo 'z' para usar o comando 'cat z' e como
+>conteúdo exibir 'Z' seguido de uma quebra de linha.
+>
+>>1. touch z                         (cria o arquivo)
+>>1. echo -e 'Z\n' > z               (coloca o conteúdo Z e a quebra de linha '\n' no arquivo 'z' -e permite a
+>>                                   interpretação de escapes da barra invertida)
 
 > ex01
-A Moulinette verifica na pasta um arquivo 'testShell00.tar', e se ao extraí-lo tem o arquivo 
-'testShell00' com o tamanho de 40bytes e permissões -r--r-xr-x.
+>A Moulinette verifica na pasta um arquivo 'testShell00.tar', e se ao extraí-lo tem o arquivo 
+>'testShell00' com o tamanho de 40bytes e permissões -r--r-xr-x.
 
 1. touch testShell00                       (cria o arquivo)
 1. truncate -s 40 testShell00              (insere o tamanho de 40bytes no arquivo)
