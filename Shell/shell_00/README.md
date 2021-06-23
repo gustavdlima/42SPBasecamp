@@ -1,19 +1,19 @@
 # Módulo Shell 00
 
 ### Sumário:
-Este documento contém a explicação dos exercícios do módulo Shell 00 da Piscina C da 42.
+> Este documento contém a explicação dos exercícios do módulo Shell 00 da Piscina C da 42.
 
 ### Dicionário:
-Moulinette -> Nome do algoritmo usado pela 42 para avaliar as resoluções de forma automática.
+> Moulinette -> Nome do algoritmo usado pela 42 para avaliar as resoluções de forma automática.
 
 ### Resoluções:
 #### ex00
 A Moulinette verifica na pasta um arquivo 'z' para usar o comando 'cat z' e como
 conteúdo exibir 'Z' seguido de uma quebra de linha.
 
-> 1. touch z                         (cria o arquivo)
-> 1. echo -e 'Z\n' > z               (coloca o conteúdo Z e a quebra de linha '\n' no arquivo 'z' -e permite a
->                                  interpretação de escapes da barra invertida)
+> 1. touch z                (cria o arquivo)
+> 1. echo -e 'Z\n' > z      (coloca o conteúdo Z e a quebra de linha '\n' no arquivo 'z' -e permite a
+>                               interpretação de escapes da barra invertida)
 
 #### ex01
 A Moulinette verifica na pasta um arquivo 'testShell00.tar', e se ao extraí-lo tem o arquivo 
